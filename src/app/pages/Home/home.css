@@ -1,0 +1,10 @@
+.p-card .p-card-content {
+  padding: 0;
+}
+
+.career-summary {
+  border-top: 1rem solid #e5e7eb;
+  border-left: 0.5rem solid #e5e7eb;
+  border-right: 0.5rem solid #e5e7eb;
+  border-bottom: 0.5rem solid #e5e7eb;
+}

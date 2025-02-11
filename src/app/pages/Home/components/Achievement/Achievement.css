@@ -1,0 +1,47 @@
+.achievements {
+  border-left: 0.5rem solid #e5e7eb;
+  border-right: 0.5rem solid #e5e7eb;
+  border-bottom: 0.5rem solid #e5e7eb;
+}
+
+.center {
+  font-size: 16px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align button content to the left */
+  padding: 10px;
+  width: auto; /* Adjust button width to fit content */
+}
+
+.arrow-container {
+  display: flex;
+  flex-direction: column; /* Stack the arrows vertically */
+  justify-content: center;
+  align-items: flex-start; /* Align arrows to the left */
+  margin-right: 10px; /* Add space between arrows and label */
+}
+
+.icon-animate {
+  font-size: 1.5rem; /* Adjust the size of the arrows */
+  animation: bounceDown 1s infinite; /* Apply bounce animation to each icon */
+  margin: 5px 0; /* Add space between the arrows */
+}
+
+.icon-animate:nth-child(2) {
+  animation-delay: 0.2s; /* Delay the second icon's animation for staggered effect */
+}
+
+@keyframes bounceDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(
+      10px
+    ); /* Bounce effect (adjust the value as needed) */
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

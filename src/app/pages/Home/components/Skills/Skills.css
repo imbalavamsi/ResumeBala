@@ -1,0 +1,50 @@
+.skills-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  position: relative;
+}
+
+.skills {
+  border-left: 0.5rem solid #e5e7eb;
+  border-right: 0.5rem solid #e5e7eb;
+  border-bottom: 0.5rem solid #e5e7eb;
+  overflow: hidden;
+}
+
+/* Keyframe animation for ultra-smooth, slow floating in 8 subtle directions */
+@keyframes float-random {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  12.5% {
+    transform: translate(2px, 3px); /* XY+ */
+  }
+  25% {
+    transform: translate(-2px, -3px); /* XY- */
+  }
+  37.5% {
+    transform: translate(3px, -2px); /* YX+ */
+  }
+  50% {
+    transform: translate(-3px, 2px); /* YX- */
+  }
+  62.5% {
+    transform: translate(2px, 0px); /* X+ */
+  }
+  75% {
+    transform: translate(-2px, 0px); /* X- */
+  }
+  87.5% {
+    transform: translate(0px, 2px); /* Y+ */
+  }
+  100% {
+    transform: translate(0px, -2px); /* Y- */
+  }
+}
+
+/* Apply animation to each Chip with subtle movement */
+.skills-chips .p-chip {
+  animation: float-random infinite ease-in-out;
+  transition: transform 3s ease-in-out;
+}
