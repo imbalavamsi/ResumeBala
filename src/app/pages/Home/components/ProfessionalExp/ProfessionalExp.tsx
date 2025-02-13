@@ -6,6 +6,7 @@ import "./ProfessionalExp.css";
 import { Card } from "primereact/card";
 
 export default function ProfessionalExp() {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const stepperRef = useRef<any>(null);
 
   return (
@@ -20,7 +21,7 @@ export default function ProfessionalExp() {
           <StepperPanel header='Java Full-Stack Developer'>
             <div className='flex flex-column'>
               <div className='surface-border border-round surface-ground flex-auto flex justify-content-center align-items-center font-medium'>
-                <ul>
+                <ul className='w-full text-left'>
                   <li>
                     Spearheaded the deployment of containerized applications on
                     the OpenShift platform by leveraging Docker, Kubernetes, and
@@ -67,7 +68,7 @@ export default function ProfessionalExp() {
           <StepperPanel header='Graduate Research Assistant'>
             <div className='flex flex-column'>
               <div className='surface-border border-round surface-ground flex-auto flex justify-content-center align-items-center font-medium'>
-                <ul>
+                <ul className='w-full text-left'>
                   <li>
                     Developed a MERN stack (MongoDB, Express.js, ReactJS,
                     Node.js) web app with AWS Code Pipeline and deployed it on
@@ -117,7 +118,7 @@ export default function ProfessionalExp() {
           <StepperPanel header='Software Engineer'>
             <div className='flex flex-column'>
               <div className='surface-border border-round surface-ground flex-auto flex justify-content-center align-items-center font-medium'>
-                <ul>
+                <ul className='w-full text-left'>
                   <li>
                     Employed e-commerce platform by harnessing SAP Hybris
                     Commerce Accelerator for B2C business models using J2EE
@@ -174,10 +175,41 @@ export default function ProfessionalExp() {
               />
             </div>
           </StepperPanel>
+          <StepperPanel header='Software Engineer Intern'>
+            <div className='flex flex-column'>
+              <div className='surface-border border-round surface-ground flex-auto flex justify-content-center align-items-center font-medium'>
+                <ul className='w-full text-left'>
+                  <li>
+                    Developed a Spring boot application with Java for backend and Angular, HTML, CSS, and JavaScript (ES6) for front-end.
+                  </li>
+                  <li>
+                    Deployed full-stack application on AWS using S3 buckets, EC2 instances, and subnets while collaborating with Agile team.
+                  </li>
+                  <li>
+                    Collaborated with the stakeholders to develop a website, resulting in a more than 30% increase in sales and profits.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className='flex pt-4 justify-content-between'>
+              <Button
+                label='Back'
+                severity='secondary'
+                icon='pi pi-arrow-left'
+                onClick={() => stepperRef.current.prevCallback()}
+              />
+              <Button
+                label='Next'
+                icon='pi pi-arrow-right'
+                iconPos='right'
+                onClick={() => stepperRef.current.nextCallback()}
+              />
+            </div>
+          </StepperPanel>
           <StepperPanel header='Engineer Trainee'>
             <div className='flex flex-column'>
               <div className='surface-border border-round surface-ground flex-auto flex font-medium'>
-                <ul>
+                <ul className='w-full text-left'>
                   <li>
                     Designed a multi-tiered system with hybrid B2B and B2C
                     prototypes for an e-commerce application.
