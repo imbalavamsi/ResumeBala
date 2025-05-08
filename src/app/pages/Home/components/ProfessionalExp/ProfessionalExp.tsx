@@ -18,7 +18,7 @@ export default function ProfessionalExp() {
         <Stepper
           ref={stepperRef}
         >
-          <StepperPanel header='Java Full-Stack Developer'>
+          <StepperPanel header='Sr. Java Full-Stack Developer'>
             <div className='flex flex-column'>
               <div className='surface-border border-round surface-ground flex-auto flex justify-content-center align-items-center font-medium'>
                 <ul className='w-full text-left'>
@@ -65,7 +65,7 @@ export default function ProfessionalExp() {
               />
             </div>
           </StepperPanel>
-          <StepperPanel header='Graduate Research Assistant'>
+          <StepperPanel header='Full Stack Developer'>
             <div className='flex flex-column'>
               <div className='surface-border border-round surface-ground flex-auto flex justify-content-center align-items-center font-medium'>
                 <ul className='w-full text-left'>
@@ -115,7 +115,7 @@ export default function ProfessionalExp() {
               />
             </div>
           </StepperPanel>
-          <StepperPanel header='Software Engineer'>
+          <StepperPanel header='Backend Developer/ Java Developer'>
             <div className='flex flex-column'>
               <div className='surface-border border-round surface-ground flex-auto flex justify-content-center align-items-center font-medium'>
                 <ul className='w-full text-left'>
@@ -175,7 +175,7 @@ export default function ProfessionalExp() {
               />
             </div>
           </StepperPanel>
-          <StepperPanel header='Software Engineer Intern'>
+          <StepperPanel header='Software Development Engineer'>
             <div className='flex flex-column'>
               <div className='surface-border border-round surface-ground flex-auto flex justify-content-center align-items-center font-medium'>
                 <ul className='w-full text-left'>
@@ -206,7 +206,7 @@ export default function ProfessionalExp() {
               />
             </div>
           </StepperPanel>
-          <StepperPanel header='Engineer Trainee'>
+          <StepperPanel header='Software Engineer Trainee'>
             <div className='flex flex-column'>
               <div className='surface-border border-round surface-ground flex-auto flex font-medium'>
                 <ul className='w-full text-left'>

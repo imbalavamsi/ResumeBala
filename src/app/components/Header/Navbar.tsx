@@ -23,7 +23,7 @@ export default function Navbar() {
       label: "LinkedIn",
       icon: "pi pi-linkedin",
       command: () =>
-        window.open("https://www.linkedin.com/in/balavamsi-dev", "_blank"),
+        window.open("https://www.linkedin.com/in/maragani-dev", "_blank"),
     },
     {
       id: "Professional Experience",
@@ -48,11 +48,11 @@ export default function Navbar() {
   const start = (
     <div className="logo-container" onClick={() => navigate("/")} style={{ display: "flex", alignItems: "center", cursor: "pointer" }}>
       {/* ✅ Add favicon image */}
-      <img 
+      <img
         src="/favicon.png"  // Path from the public folder
-        alt="Logo" 
-        width="40" 
-        height="40" 
+        alt="Logo"
+        width="40"
+        height="40"
         style={{ marginRight: "10px", borderRadius: "50%" }} // Optional styling
       />
       <span className="logo-text">BALA VAMSI MARAGANI</span>

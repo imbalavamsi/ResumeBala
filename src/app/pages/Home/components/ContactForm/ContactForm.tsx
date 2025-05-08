@@ -92,14 +92,14 @@ export default function ContactForm() {
             <h1>Contact me</h1>
             <div>
               <span className="pi pi-envelope mr-3"></span>
-              balavamsi.dev@gmail.com
+              maragani.dev@gmail.com
             </div>
             <div className="mt-3">
-              <span className="pi pi-phone mr-3"></span>+1 (201) 639 - 2427
+              <span className="pi pi-phone mr-3"></span>+1 (757) 757 - 4319
             </div>
             <div className="contact-links mt-3">
               <a
-                href="https://www.linkedin.com/in/balavamsi-dev/"
+                href="https://www.linkedin.com/in/maragani-dev/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
